@@ -1,0 +1,149 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #1e293b;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo span {
+    color: skyblue;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: skyblue;
+}
+
+/* Top header section */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #162032;
+}
+
+.tagline {
+    color: skyblue;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.subtitle {
+    color: lightgray;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px;
+}
+
+.primary {
+    background-color: skyblue;
+    color: black;
+}
+
+.secondary {
+    border: 2px solid skyblue;
+    color: skyblue;
+}
+
+/* Main content area */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+h2 {
+    border-left: 4px solid skyblue;
+    padding-left: 10px;
+}
+
+/* About box & Project cards */
+.about-text, .card, .contact-box {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: lightgray;
+}
+
+.tech {
+    color: skyblue;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Skills tags */
+.skill-badge {
+    background-color: #1e293b;
+    color: skyblue;
+    padding: 8px 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+}
+
+/* Contact section */
+.contact-box {
+    text-align: center;
+}
+
+.contact-box h2 {
+    border: none;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: lightgray;
+    margin-top: 40px;
+}
